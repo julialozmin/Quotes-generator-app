@@ -1,0 +1,64 @@
+:root {
+  --light-peach: #fceae3;
+  --rosy-cheeks: #fc968a;
+  --tangerine: #f38145;
+  --tea-green: #a9c5b7;
+  --deep-blue: #39374d;
+  --title-font: Kalnia;
+  --body-font: Sofia Sans Extra Condensed;
+  --footer-font: Sofia Sans;
+}
+
+body {
+  background-color: var(--light-peach);
+  font-family: var(--body-font);
+  font-size: 26px;
+  line-height: 1.5;
+  padding-top: 150px;
+  text-align: center;
+  color: var(--deep-blue);
+}
+
+header {
+  font-family: var(--title-font);
+  font-weight: 600;
+  font-size: 36px;
+}
+
+form input {
+  font-size: 16px;
+  padding: 10px 18px 10px 18px;
+  border: 2px solid var(--tea-green);
+  border-radius: 8px;
+}
+
+form .button {
+  background-color: var(--tea-green);
+}
+
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 30px;
+  font-size: 16px;
+  font-family: var(--footer-font);
+}
+
+footer a {
+  color: var(--deep-blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+  border: 6px solid var(--rosy-cheeks);
+  border-radius: 8px;
+}
+
+.quoteDisplay {
+  padding: 50px 10px 50px 10px;
+}

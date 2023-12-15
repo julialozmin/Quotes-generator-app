@@ -6,29 +6,36 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@600&family=Sofia+Sans+Extra+Condensed:ital,wght@0,400;1,200;1,400&family=Sofia+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <title>Quotes Generator</title>
   </head>
   <body>
-    <header><h1>Welcome to the quotes generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter your keyword"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div id="quote">
-        If you look at what you have in life, you'll always have more. If you
-        look at what you don't have in life, you'll never have enough. -Oprah
-        Winfrey
-      </div>
-    </main>
-
+    <div class="container">
+      <header><h1>quotes generator</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter your keyword"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div id="quote" class="quoteDisplay">
+          If you look at what you have in life, you'll always have more. If you
+          look at what you don't have in life, you'll never have enough. -Oprah
+          Winfrey
+        </div>
+      </main>
+    </div>
     <footer>
       Coded by
       <a
