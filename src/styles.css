@@ -66,3 +66,13 @@ footer a {
 .author {
   font-style: italic;
 }
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 700ms step-start 700ms infinite;
+}
