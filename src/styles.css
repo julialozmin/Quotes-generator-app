@@ -62,3 +62,7 @@ footer a {
 .quoteDisplay {
   padding: 50px 10px 50px 10px;
 }
+
+.author {
+  font-style: italic;
+}
