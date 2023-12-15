@@ -19,21 +19,18 @@
     <div class="container">
       <header><h1>quotes generator</h1></header>
       <main>
-        <form>
+        <form id="search-form">
           <input
             type="text"
             placeholder="Enter your keyword"
             autofocus
             required
             autocomplete="off"
+            id="search-field"
           />
-          <input type="submit" class="button" />
+          <input type="submit" class="button" id="submit-button" />
         </form>
-        <div id="quote" class="quoteDisplay">
-          If you look at what you have in life, you'll always have more. If you
-          look at what you don't have in life, you'll never have enough. -Oprah
-          Winfrey
-        </div>
+        <div id="quote" class="quoteDisplay"></div>
       </main>
     </div>
     <footer>
